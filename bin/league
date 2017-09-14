@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# The command line Haml parser.
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
+require 'league'
+
+league = League::Soccer.new(ARGV.first)
+league.result
