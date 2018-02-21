@@ -10,6 +10,12 @@ This gem will not be handling malformed input files.
 
 Install it yourself as:
 
+    $ cd league
+    $ gem build league.gemspec
+    Successfully built RubyGem
+    Name: league
+    Version: 0.1.0
+    File: league-0.1.0.gem
     $ gem install league
 
 ## Usage
